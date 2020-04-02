@@ -56,3 +56,21 @@ Allows players to play as the contagious COVID-19 virus. Players will chose a co
 
 ## Wireframes
 <img src="https://imgur.com/hYJ7APv.png" width=800><br>
+
+### Models
+
+   | Property      | Type     | Description |
+   | ------------- | -------- | ------------|
+   | countryName   | String   | name identfier for countries |
+   | population    | integer  | number of people in country  |
+   | healthCare    | integer  | number that rates health care of country |
+   | country       | object   | holds information on country defining spread of virus |
+   | age           | integer  | gives overall age of country determines fatality of virus |
+   | virus         | object   | holds attributes of virus |
+   | game data     | object   | hold save data  |
+   | difficulty    | object   | determines attributes of gameplay |
+   
+   ### Network
+   
+   ## N/A at the momment! If we find we need network capabilties we'll add them!
+   --------------------
