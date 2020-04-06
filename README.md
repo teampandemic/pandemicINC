@@ -74,3 +74,15 @@ Allows players to play as the contagious COVID-19 virus. Players will chose a co
    
    ## N/A at the momment! If we find we need network capabilties we'll add them!
    --------------------
+   
+   ### User Stories
+   [] Database
+   [] Home Screen
+   [] How to play
+   [] Play Screen
+   [] Game
+   
+   
+   ### Progress
+   <img src='https://gyazo.com/3ee53a1d2bb9c6074472c089c91b16f5.gif' title='Progress' width='' />
+   
