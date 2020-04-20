@@ -76,8 +76,8 @@ Allows players to play as the contagious COVID-19 virus. Players will chose a co
    --------------------
    
    ### User Stories
-   [] Database
-   [] Home Screen
+   [x] Database
+   [x] Home Screen
    [] How to play
    [] Play Screen
    [] Game
