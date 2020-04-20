@@ -85,5 +85,5 @@ Allows players to play as the contagious COVID-19 virus. Players will chose a co
    
    ### Progress
    <img src='https://gyazo.com/3ee53a1d2bb9c6074472c089c91b16f5.gif' title='Progress' width='' />
-   <img src='https://dsu-dpcs.slack.com/archives/DPTDQHEFL/p1587348179000200' title='Progress' width='' />
+   <img src='http://g.recordit.co/YbovgnWj35.gif' title='Progress' width='' />
    
