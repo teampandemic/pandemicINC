@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Parse
 
 class HomeVC: UIViewController {
 
@@ -16,7 +17,11 @@ class HomeVC: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func logout(_ sender: Any) {
+        PFUser.logOut()
+        self.performSegue(withIdentifier: "LogoutSegue", sender: nil)
+    }
+    
     /*
     // MARK: - Navigation
 
