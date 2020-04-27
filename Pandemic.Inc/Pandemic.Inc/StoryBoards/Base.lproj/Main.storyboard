@@ -31,16 +31,16 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fO5-hY-XeV">
-                                <rect key="frame" x="102" y="419" width="54" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fO5-hY-XeV">
+                                <rect key="frame" x="20" y="394" width="152" height="109"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Sign Up"/>
+                                <state key="normal" title="Sign Up" image="signUpButton"/>
                                 <connections>
                                     <action selector="signUp:" destination="Lza-e9-v4k" eventType="touchUpInside" id="fDU-f2-q41"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D8d-O0-L16">
-                                <rect key="frame" x="102" y="270" width="394" height="356"/>
+                                <rect key="frame" x="242" y="394" width="152" height="109"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Log in" image="logInButton-2">
                                     <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
@@ -76,27 +76,27 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DUu-mB-EUT">
-                                <rect key="frame" x="-78" y="471" width="571" height="425"/>
+                                <rect key="frame" x="128" y="513" width="158" height="132"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="How To" image="howTo"/>
                                 <connections>
                                     <segue destination="e5l-yS-30Z" kind="show" id="vX9-KZ-YhX"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Az-kh-Ezs">
-                                <rect key="frame" x="347" y="44" width="48" height="39"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Logout"/>
-                                <connections>
-                                    <action selector="logout:" destination="BYZ-38-t0r" eventType="touchUpInside" id="X8J-UH-mTR"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G0B-dG-oaa">
-                                <rect key="frame" x="-78" y="91" width="571" height="372"/>
+                                <rect key="frame" x="128" y="331" width="158" height="132"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Play" image="playButton "/>
                                 <connections>
                                     <segue destination="cmR-rD-TzK" kind="presentation" id="BD3-p6-J8O"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Az-kh-Ezs">
+                                <rect key="frame" x="273" y="32" width="121" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Logout" image="logOutButton-2"/>
+                                <connections>
+                                    <action selector="logout:" destination="BYZ-38-t0r" eventType="touchUpInside" id="X8J-UH-mTR"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -153,14 +153,6 @@
                                 <rect key="frame" x="-53" y="0.0" width="525" height="856"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jA9-5w-IyL">
-                                <rect key="frame" x="-208" y="315" width="834" height="592"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Play" image="playButton "/>
-                                <connections>
-                                    <segue destination="TNa-Kd-6cz" kind="show" id="ugu-fB-gdi"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="czK-2y-4qK">
                                 <rect key="frame" x="0.0" y="77" width="414" height="333"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -169,6 +161,14 @@
                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jA9-5w-IyL">
+                                <rect key="frame" x="128" y="553" width="158" height="132"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Play" image="playButton "/>
+                                <connections>
+                                    <segue destination="TNa-Kd-6cz" kind="show" id="ugu-fB-gdi"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="8yO-XJ-AvM"/>
@@ -215,8 +215,10 @@
         <image name="background" width="375" height="667"/>
         <image name="homescreen" width="750" height="1334"/>
         <image name="homescreen-1" width="750" height="1334"/>
-        <image name="howTo" width="800" height="600"/>
-        <image name="logInButton-2" width="1920" height="1080"/>
-        <image name="playButton " width="800" height="600"/>
+        <image name="howTo" width="225" height="107"/>
+        <image name="logInButton-2" width="202" height="140"/>
+        <image name="logOutButton-2" width="228" height="132"/>
+        <image name="playButton " width="168" height="133"/>
+        <image name="signUpButton" width="223" height="139"/>
     </resources>
 </document>
